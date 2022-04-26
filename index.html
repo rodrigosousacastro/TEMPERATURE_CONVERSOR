@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./icons8-temperatura-32.png" type="image/png">
+
+    <title>Conversor de Temperatura</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Conversor de Temperatura</h1>
+
+    <a href="./curiosities.html">
+        <button id="firstButton">Curiosidades</button>
+    </a>
+
+    </header>
+
+    
+    <br>
+
+    <fieldset id="fieldset">
+
+        <!-- FORMULÁRIO 1 -->
+        <form id="formulario1">
+
+            <div class="grupo1" name="grupo1">
+
+                <!-- Campo de Prenchimento -->
+                <br>
+                <label for="celsius">(°C): </label>
+                <input name="celsius" class="celsius" type="text" placeholder="Temperatura em Celsius">
+                <br>
+                <br>
+                <!-- Botões de conversão e apagar -->
+                <button class="botao1" onclick="converterCelsius()" type="button">Converter</button>
+                <button class="apagar1" onclick="apagarCelsius()" type="button">Apagar</button>
+                <br>
+                <br>
+
+                <div id="result1">Resultado: </div>
+                <hr>
+
+            </div>
+
+        </form>
+
+        <!-- FORMULÁRIO 2 -->
+        <form id="formulario2">
+
+            <div class="grupo2" name="grupo2">
+
+                <!-- Campo de Prenchimento -->
+                <br>
+                <label for="fahrenheit">(°F): </label>
+                <input name="fahrenheit" class="fahrenheit" type="text" placeholder="Temperatura em Fahrenheit">
+                <br>
+                <br>
+                <!-- Botões de conversão e apagar -->
+                <button class="botao2" onclick="converterFahrenheit()" type="button">Converter</button>
+                <button class="apagar2" onclick="apagarFahrenheit()" type="button">Apagar</button>
+                <br>
+                <br>
+
+                <div id="result2">Resultado: </div>
+                <hr>
+
+            </div>
+
+        </form>
+
+        <!-- FORMULÁRIO 3 -->
+        <form id="formulario3">
+
+            <div class="grupo3" name="grupo3">
+
+                <!-- Campo de Prenchimento -->
+                <br>
+                <label for="kelvin">(K): </label>
+                <input name="kelvin" class="kelvin" type="text" placeholder="Temperatura em Kelvin">
+                <br>
+                <br>
+                <!-- Botões de conversão e apagar -->
+                <button class="botao3" onclick="converterKelvin()" type="button">Converter</button>
+                <button class="apagar3" onclick="apagarKelvin()" type="button">Apagar</button>
+                <br>
+                <br>
+
+                <div id="result3">Resultado: </div>
+                <hr>
+
+            </div>
+
+        </form>
+
+    </fieldset>    
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>

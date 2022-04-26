@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital@0;1&family=Pacifico&display=swap');
+
+*{
+    font-family: 'Open Sans', 'san-serif';
+}
+
+p{
+    text-align: justify;
+}
+
+#fieldset {
+    margin: 0 auto;
+    background-color: rgb(194, 194, 163);
+    
+}
+
+button {
+    background-color: rgb(0, 51, 102);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(51, 102, 153);
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(51, 102, 153);
+}
+
+button:active {
+    background-color: rgb(0, 204, 255);
+    color: rgb(0, 51, 102);;
+}
+
+h1 {
+    text-align: center;
+    margin: none;
+    padding: none;
+}
+
+body {
+    margin: 30px;
+    
+}
